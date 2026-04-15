@@ -46,8 +46,6 @@ Each conversation is stored in a PostgreSQL database (hosted on [Neon](https://n
 
 By default, this chatbot uses **Gemini 3.1 Flash Lite** (`gemini-3.1-flash-lite-preview`), which is a newer preview model with very high demand. Because of this, you may occasionally receive a `503 Service Unavailable` error instead of a response — this is not a bug, it simply means Google's servers are overloaded for that model at that moment. Waiting a few seconds and retrying usually resolves it.
 
-If you want a more stable experience, you can switch to a different model by setting the `GEMINI_MODEL` environment variable to `gemini-2.0-flash`, which is more widely available.
-
 ---
 
 ## Tech Stack
